@@ -1,1 +1,1 @@
-# Omnius Core Scala
+# Omnius Core for Scala
