@@ -1,1 +1,1 @@
-# Omnius Core Library for Scala
+# Core - Omnius Core Library for Scala
