@@ -6,8 +6,6 @@ on:
   pull_request:
     types: [opened, reopened]
 
-permissions: {}
-
 jobs:
   add-issue-to-project:
     if: github.event_name == 'issues'
