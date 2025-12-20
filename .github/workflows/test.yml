@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           submodules: "recursive"
       - name: Setup Scala
-        uses: olafurpg/setup-scala@v11
+        uses: olafurpg/setup-scala@v14
         with:
           java-version: openjdk@1.17.0
       - name: test
